@@ -1,0 +1,244 @@
+/* GENERAL STYLING */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* HEADER */
+
+header {
+    background: #071b35;
+    color: white;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #00c2ff;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00c2ff;
+}
+
+/* HERO SECTION */
+
+.hero {
+    min-height: 450px;
+    background: linear-gradient(
+        135deg,
+        #071b35,
+        #075985
+    );
+    display: flex;
+    align-items: center;
+    padding: 60px 8%;
+    color: white;
+}
+
+.hero-content {
+    max-width: 650px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero h1 span {
+    color: #00c2ff;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* BUTTONS */
+
+.btn {
+    display: inline-block;
+    background: #00a8e8;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0077b6;
+}
+
+/* WELCOME SECTION */
+
+.welcome {
+    text-align: center;
+    padding: 60px 8%;
+    background: white;
+}
+
+.welcome h2,
+.services h2,
+.why-us h2 {
+    font-size: 30px;
+    color: #071b35;
+    margin-bottom: 20px;
+}
+
+.welcome p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 17px;
+}
+
+/* SERVICES SECTION */
+
+.services {
+    text-align: center;
+    padding: 60px 5%;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.service-card {
+    background: white;
+    padding: 30px 20px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card h3 {
+    color: #075985;
+    margin-bottom: 15px;
+}
+
+/* WHY CHOOSE US */
+
+.why-us {
+    background: white;
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.why-us p {
+    margin: 12px 0;
+    font-size: 17px;
+}
+
+/* CONTACT BANNER */
+
+.contact-banner {
+    background: #075985;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.contact-banner h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.contact-banner p {
+    margin-bottom: 25px;
+}
+
+/* FOOTER */
+
+footer {
+    background: #071b35;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media screen and (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    .hero {
+        min-height: 400px;
+        padding: 50px 6%;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .service-card {
+        width: 100%;
+    }
+
+    .welcome h2,
+    .services h2,
+    .why-us h2 {
+        font-size: 25px;
+    }
+}

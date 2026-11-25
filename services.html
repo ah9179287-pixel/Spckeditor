@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | TechFix Pro</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fc;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #071b35;
+            color: white;
+            text-align: center;
+            padding: 35px 15px;
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin-bottom: 25px;
+        }
+
+        header span {
+            color: #00bfff;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00bfff;
+        }
+
+        .services {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .services h2 {
+            color: #071b35;
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        .services p {
+            font-size: 17px;
+            margin-bottom: 35px;
+        }
+
+        .service-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 25px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .service-box {
+            background: white;
+            padding: 30px 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .service-box:hover {
+            transform: translateY(-5px);
+        }
+
+        .service-box .icon {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .service-box h3 {
+            color: #071b35;
+            margin-bottom: 12px;
+            font-size: 21px;
+        }
+
+        .service-box p {
+            font-size: 15px;
+            color: #555;
+            margin-bottom: 0;
+        }
+
+        .contact-section {
+            background: #071b35;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .contact-section h2 {
+            margin-bottom: 15px;
+        }
+
+        .contact-section a {
+            display: inline-block;
+            background: #00bfff;
+            color: white;
+            padding: 12px 25px;
+            margin-top: 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #041225;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media(max-width: 480px) {
+            header h1 {
+                font-size: 30px;
+            }
+
+            nav {
+                gap: 13px;
+            }
+
+            .services h2 {
+                font-size: 27px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>TechFix <span>Pro</span></h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="services">
+
+    <h2>Our Services</h2>
+
+    <p>
+        TechFix Pro provides reliable, affordable, and professional
+        technology services to individuals and businesses.
+    </p>
+
+    <div class="service-container">
+
+        <div class="service-box">
+            <div class="icon">💻</div>
+            <h3>Computer Repair</h3>
+            <p>
+                We repair computer hardware and software problems
+                to keep your devices working properly.
+            </p>
+        </div>
+
+        <div class="service-box">
+            <div class="icon">🛠️</div>
+            <h3>Software Installation</h3>
+            <p>
+                We install and update computer software and
+                operating systems for better performance.
+            </p>
+        </div>
+
+        <div class="service-box">
+            <div class="icon">🌐</div>
+            <h3>Networking Services</h3>
+            <p>
+                We provide network setup and troubleshooting
+                services for homes and businesses.
+            </p>
+        </div>
+
+        <div class="service-box">
+            <div class="icon">🔒</div>
+            <h3>Virus Removal</h3>
+            <p>
+                We help protect computers by removing malware
+                and improving device security.
+            </p>
+        </div>
+
+        <div class="service-box">
+            <div class="icon">📱</div>
+            <h3>Mobile Device Support</h3>
+            <p>
+                We provide technical assistance for smartphones
+                and other mobile devices.
+            </p>
+        </div>
+
+        <div class="service-box">
+            <div class="icon">💡</div>
+            <h3>Technical Support</h3>
+            <p>
+                We offer professional technical assistance
+                to help customers solve technology problems.
+            </p>
+        </div>
+
+    </
